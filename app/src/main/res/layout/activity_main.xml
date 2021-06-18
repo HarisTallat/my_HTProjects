@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f9b7f0b5a32332846c4913107da159b5"
+    android:onClick="Tracker"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnUserRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="userRegistration"
+        android:text="Register Yourself" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="covidInfo"
+        android:text="Covid Info" />
+
+    <Button
+        android:id="@+id/btnFeedBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="feedbackOption"
+        android:text="Feedbacks" />
+
+    <Button
+        android:id="@+id/btnCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="findCenter"
+        android:text="Find Vaccination Centers Nearby" />
+
+    <Button
+        android:id="@+id/btnHelpLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="helpline"
+        android:text="Helpline" />
+
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="userProgress"
+        android:text="REPORT PROGRESS" />
+
+    <Button
+        android:id="@+id/btnTracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Tracker"
+        android:text="Tracker" />
+</LinearLayout>
