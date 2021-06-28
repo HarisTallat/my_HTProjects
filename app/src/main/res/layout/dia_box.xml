@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2D8AA1"
+    android:orientation="vertical">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:padding="30sp"
+        android:src="@drawable/main_gif" />
+
+    <EditText
+        android:id="@+id/txtinput"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Enter Vaccine Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="2dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btok"
+        android:layout_width="196dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:insetLeft="10dp"
+        android:insetTop="10dp"
+        android:insetRight="10dp"
+        android:insetBottom="10dp"
+        android:text="Submit"
+        app:backgroundTint="#9E1D1D" />
+
+</LinearLayout>

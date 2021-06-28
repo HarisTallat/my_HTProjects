@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/zedtal"
+    android:orientation="vertical"
+    tools:context=".Vaccine1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="292dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:text="Vaccine Description"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/ic_baseline_masks_24" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/va2" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_margin="3dp"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="Details"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Novavax, Inc., is an American biotechnology company based in Gaithersburg, Maryland that develops vaccines to counter serious infectious diseases. Prior to 2020, company scientists developed experimental vaccines for Ebola, influenza, respiratory syncytial virus (RSV), and other emerging infectious diseases. During 2020, the company redirected its efforts to focus on development and approval of its vaccine for COVID-19" />
+</LinearLayout>
