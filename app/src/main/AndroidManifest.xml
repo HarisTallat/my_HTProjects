@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.htproject">
 
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,20 +11,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HTProject">
-        <activity android:name=".findcenter"></activity>
-        <activity android:name=".tracker" />
+        <activity android:name=".registration_checker"></activity>
+        <activity android:name=".all_records" />
+        <activity android:name=".for_admin" />
+        <activity android:name=".patient_report" />
+        <activity android:name=".progress_four" />
+        <activity android:name=".progress_three" />
+        <activity android:name=".progress_two" />
+        <activity android:name=".add_feedback" />
+        <activity android:name=".vaccineLayout" />
+        <activity android:name=".findcenter" />
+        <activity android:name=".questions" />
         <activity android:name=".progress" />
         <activity android:name=".feedback" />
         <activity android:name=".registration" />
-        <activity android:name=".SplashScreen" />
-        <activity android:name=".covidinfo" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".covidinfo" />
+        <activity android:name=".MainActivity">
+
+        </activity> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

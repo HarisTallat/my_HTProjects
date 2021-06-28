@@ -2,8 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/f9b7f0b5a32332846c4913107da159b5"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#00BCD4"
     android:orientation="vertical">
 
     <LinearLayout
@@ -19,9 +20,10 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/_0628731_110830249872958_4762925887232409600_n" />
+                app:srcCompat="@drawable/ic_baseline_person_24" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -30,12 +32,22 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/tvName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="I did not feel any symptoms after the first dose"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:layout_marginLeft="10dp"
+                android:drawableRight="@drawable/ic_baseline_feedback_24"
+                android:fontFamily="@font/archivo_black"
+                android:text="Haris Tallat" />
+
+            <TextView
+                android:id="@+id/tvComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/archivo_black"
+                android:text="I did not feel any symptoms after the first doze"
+                android:textColor="#422681" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

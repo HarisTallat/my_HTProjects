@@ -4,6 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/f9b7f0b5a32332846c4913107da159b5"
+    android:background="@drawable/zedtal"
     android:orientation="vertical"
-    tools:context=".SplashScreen"/>
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="504dp"
+        android:background="#1EA4B5"
+        android:padding="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209"
+        app:srcCompat="@drawable/mob2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="381dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="423dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/raz"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="533dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+

@@ -4,180 +4,139 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/f9b7f0b5a32332846c4913107da159b5"
+    android:background="@drawable/zedtal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_margin="10dp"
-        android:gravity="center"
+        android:layout_height="100dp"
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="120dp"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/covid_1618126988_1618920185" />
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:fontFamily="sans-serif-black"
-            android:gravity="center"
-            android:text="LET'S DEFEAT CORONAVIRUS"
-            android:textColor="#000000"
-            android:textSize="30dp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:layout_margin="10dp"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="230dp"
+            android:layout_width="260dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/textView20"
                 android:layout_width="match_parent"
-                android:layout_height="29dp"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-black"
-                android:text="FOLLOW THE PRECAUTIONS"
-                android:textColor="#000000"
-                android:textSize="31sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                 />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="Clean your Hands"
-                android:textColor="#3F51B5"
-                android:textSize="21sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="Wear a Mask"
-                android:textColor="#3F51B5"
-                android:textSize="21sp"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:layout_margin="10dp"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="29dp"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-black"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/archivo_black"
                 android:gravity="center"
-                android:text="WHY GET VACCINATED?"
-                android:textColor="#000000"
-                android:textSize="31sp"
-                android:textStyle="bold" />
+                android:text="Let's Defeat COVID-19"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/imageView8"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/screen_shot_2021_03_12_at_10_50_53_am" />
-
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                app:srcCompat="@drawable/photo_1583324113626_70df0f4deaab" />
         </LinearLayout>
+
+
+    </LinearLayout>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:padding="10dp"
+        android:src="@drawable/send" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="FOLLOW THE PRECAUTIONS"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#00BCD4"
+        android:drawableRight="@drawable/ic_baseline_masks_25"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="3dp"
+        android:text="Wear a Mask"
+        android:textColor="#000000"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#00BCD4"
+        android:drawableRight="@drawable/ic_baseline_clean_hands_24"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="3dp"
+        android:text="Clean your Hands"
+        android:textColor="#000000"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#00BCD4"
+        android:drawableRight="@drawable/ic_baseline_thumbs_up_down_24"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="3dp"
+        android:text="No Handshakes"
+        android:textColor="#000000"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="WHY GET VACCINATED?"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            app:srcCompat="@drawable/screen_shot_2021_03_12_at_10_50_53_am" />
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
         android:layout_margin="5dp"
-        android:fontFamily="sans-serif-black"
-        android:text="To Protect Your Loved Ones"
+        android:background="#00BCD4"
+        android:drawableEnd="@drawable/ic_baseline_family_restroom_24"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="3dp"
+        android:text="Protect Your Loved Ones and help building the protection against the deadly disease. Boost your herd immunity by getting vaccinated. "
         android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:fontFamily="sans-serif-black"
-        android:text="To Boost Your Herd Immunity"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:fontFamily="sans-serif-black"
-        android:text="To Protect Your Future Generations"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:fontFamily="sans-serif-black"
-        android:text="To help building the protection against the deadly disease"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold" />
 
 </LinearLayout>
